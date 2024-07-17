@@ -4,3 +4,5 @@ psp_data
 *.pdf
 __pycache__
 *.egg-info
+docs/
+.DS_Store
