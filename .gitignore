@@ -2,3 +2,4 @@
 psp_data
 *.cdf
 *.pdf
+__pycache__
