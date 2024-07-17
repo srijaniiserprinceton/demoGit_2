@@ -1,10 +1,10 @@
 import sys, os
 import numpy as np
-current = os.path.dirname(os.path.realpath(__file__))
-parent = os.path.dirname(current)
-sys.path.append(parent)
-import misc_functions as misc_FN
-import load_PSP_mag
+# current = os.path.dirname(os.path.realpath(__file__))
+# parent = os.path.dirname(current)
+# sys.path.append(parent)
+from b_psp import misc_functions as misc_FN
+from b_psp import load_PSP_mag
 
 def test_calc_Bmag():
   # loading in some BRTN from PSP FIELDS
